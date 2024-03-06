@@ -41,7 +41,7 @@ def main():
     root = tk.Tk()
     root.geometry("500x300")
     root.title("today is not your birthday!")
-    text = "Dear Chloe,\n Today is not your birthday, so this isn't a birthday card. \n And, therefore, I am NOT celebrating your birthday ;). But, if it was,\n it would be the perfect oppurtunity to tell you that you are an amazing,\n kind, funny, smart, beautiful person and I am so so so grateful to have\n you in my life :) . Wishing you the absolute best for this year \n and all the ones to come!!!"
+    text = "Dear Chloe,\n Today is not your birthday, so this isn't a birthday card. \n And, therefore, I am NOT celebrating your birthday ;). But, if it was,\n it would be the perfect oppurtunity to tell you that you are an amazing,\n kind, funny, smart, beautiful person and I am so so so grateful to have\n you in my life :) . Wishing you the absolute best for this year \n and all the years to come!!!"
     wpm = 800
     window = Window(root, text, wpm)
     root.mainloop()
